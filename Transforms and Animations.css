@@ -1,0 +1,38 @@
+img{
+    display:block;
+    width:200px;
+    height:200px;
+}
+.image1{
+    margin-left:15%;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-name:image1;
+    animation-direction: alternate;
+}
+@keyframes image1{
+    0%{
+        transform:translateX(0px) rotate(0deg);
+    }
+    100%{
+        transform:translateX(950px)  rotate(360deg);
+    }
+
+}
+.image2{
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-name:image2;
+    animation-direction: alternate;
+}
+@keyframes image2{
+    0%{
+        transform:translateY(0px) rotate(0deg);
+    }
+    100%{
+        transform:translateY(40vh)  rotate(360deg);
+    }
+
+}
